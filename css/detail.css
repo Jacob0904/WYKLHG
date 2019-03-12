@@ -1,0 +1,320 @@
+/*****************搜索结果*************/
+.m-search {
+    position: relative;
+    width: 1104px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+}
+.m-search .resultwrap {
+    margin-bottom: 6px;
+}
+.m-search .options{
+    width: 1090px;
+    margin: 0 auto;
+}
+.resultinfo{
+    margin-top: 0;
+    margin: 15px 0 10px;
+    line-height: 22px;
+}
+.resultinfo .all{
+    margin-bottom: 0px;
+    float: left;
+    line-height: 22px;
+    font-size: 12px;
+}
+.s-color{
+    color: #333;
+}
+.u-gap{
+    margin-left: 8px;
+    margin-right: 6px;
+    display: inline-block;
+    width: 10px;
+    font-family: simsun;
+    color: #999;
+    font-weight: bold;
+}
+.resultinfo .detail-search {
+    position: relative;
+    font-size: 12px;
+    float: left;
+    margin-right: 10px;
+}
+.resultinfo .detail-search input {
+    width: 105px;
+    padding: 5px 24px 5px 5px;
+    height: 12px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+}
+#crumbsSearchInputIcon{
+    top:4px;
+    left: 115px;
+}
+.gnum {
+    float: left;
+    margin-left: 0;
+    height: 22px;
+    display: inline-block;
+    line-height: 24px;
+    color: #999;
+    font-size: 12px;
+}
+.m-search i {
+    color: #e31436;
+}
+.m-classify {
+    position: relative;
+    background: #f8f8f8;
+    border-bottom: 1px dotted #eaeaea;
+}
+.name {
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 12px;
+    width: 85px;
+    overflow: hidden;
+    float: left;
+    height: 100%;
+    padding-left: 15px;
+    color: #666;
+    background: #f8f8f8;
+}
+.hdbrands{
+    margin-left: 110px;
+    padding: 8px 120px 4px 0;
+    background-color: #fff;
+}
+.brands{
+    max-height: 45px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    line-height: 14px;
+    float: left;
+    font-size: 12px;
+}
+.brands a {
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 18px;
+    margin-bottom: 4px;
+    padding: 3px 5px;
+    width: 120px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    line-height: 12px;
+    float: left;
+    display: inline-block;
+    padding-right: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.morewrap {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.m-classify .more{
+    /*margin-left: 0;*/
+    font-size: 12px;
+    position: relative;
+    float: right;
+    width: 42px;
+    margin: auto 15px;
+    line-height: 13px;
+    cursor: pointer;
+}
+.more span {
+    top: 3px;
+    left: 30px;
+    background-position: 0 0;
+    position: absolute;
+    width: 9px;
+    height: 6px;
+}
+.more span{
+    background: url("../images/icon-new.png") no-repeat;
+}
+.item-multiple {
+    float: right;
+    margin: -4px 15px 0 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+.item-multiple .iconfont{
+    width: 12px;
+    font-size: 12px;
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.icon-miniplus:before {
+    content: "\e631";
+}
+.icon-tridown {
+    display: inline-block;
+    transform: rotate(-90deg);
+    font-size: 12px;
+    color: #cbcbcb !important;
+}
+.icon-tridown:before {
+     content: "\e60f";
+ }
+.attr-items {
+    position: relative;
+    float: left;
+    line-height: 22px;
+    font-size: 12px;
+}
+a.dditem {
+    float: left;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+    line-height: 12px;
+    font-size: 12px;
+    margin: 0 0 4px 20px;
+    cursor: pointer;
+    color: #333;
+}
+a.dditem .down {
+    display: inline-block;
+}
+a.dditem .iconfont {
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin-left: 2px;
+    color: #cdcdcd;
+}
+.icon-paixujiantouxia:before {
+    content: "\e61e";
+}
+.m-filter {
+    background-color: #fff;
+}
+.m-filter .hdorder {
+    height: 36px;
+    background-color: #fff;
+}
+.order dd {
+    float: left;
+    width: 65px;
+    height: 36px;
+    line-height: 36px;
+    margin: -1px;
+    margin-left: 0;
+    font-size: 13px;
+    color: #333;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    text-align: center;
+}
+.order :active {
+    position: relative;
+    border: 1px solid #e31436;
+    color: #e31436;
+}
+.m-priceBox {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 124px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.m-priceBox .priceInputs {
+    position: absolute;
+    left: 8px;
+    top: -1px;
+    padding: 0 8px;
+}
+.m-priceBox .ipt {
+    width: 34px;
+    line-height: 18px;
+    padding-left: 4px;
+    border: 1px solid #ddd;
+}
+.m-addrbox {
+    float: left;
+    height: 36px;
+}
+.m-addrbox .tit {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+}
+.m-addrbox .addrselect {
+    float: left;
+    margin: 8px 0 0 10px;
+}
+.m-addrw {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.m-addr{
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.m-addr .iptw {
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    width: auto;
+    padding: 0 5px;
+    vertical-align: middle;
+    text-align: left;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    font-size: 12px;
+}
+.m-addr .iptmsg, .m-addr .iptdown {
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: top;
+}
+.m-addr .iptmsg {
+    width: 114px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.m-addr .iptdown {
+    font-family: "iconfont";
+    font-size: 11px;
+    color: #666666;
+}
+.icon-tridown:before {
+    content: "\e60f";
+}
+
+
+
+
+
+
+
+
+
+

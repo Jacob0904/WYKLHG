@@ -1,0 +1,48 @@
+body, button, input, select, textarea {
+    font: 12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+}
+body, html {
+    color: #333;
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+img, input, select {
+    vertical-align: middle;
+    display: inline-block;
+}
+.wrapper,.container{
+    width: 1349px;
+    margin: auto;
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{zoom:1;/*为IE6，7的兼容性设置*/}
+a, a:hover {
+    color: #51b8f1;
+    cursor: pointer;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+body {
+    background-color: #FEBCFA;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
